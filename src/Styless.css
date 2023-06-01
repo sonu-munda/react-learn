@@ -1,0 +1,224 @@
+body{
+  font-family: 'Heebo', sans-serif;
+font-family: 'Pacifico', cursive;
+}
+.Appbar{
+    background-color: white;
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    
+    font-size: 10px;
+    font-weight: bold;
+   margin-top: 30px;
+   line-height: 5px;
+   letter-spacing: 2px;
+
+  }
+  .App{
+    text-align: center;
+    font-size: 10px;
+    
+    font-weight: bold;
+    letter-spacing: 2px;
+      }
+  .sec1{
+    position: relative;
+    height:470px;
+    width:100%vh;
+    margin-top: 15px;
+    background-color: #FADBD8;
+    display: flex;
+  }
+  .line{
+    height:3px;
+    width:40px;
+    margin-left: 49%;
+    background-color: black;
+  }
+  .sec-left{
+    height:100%;
+    width:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .boxname{
+    font-size: 60px;
+    
+    font-weight: bold;
+  }
+  .box p{
+   
+   font-size: 15px;
+   margin-left: 10px;
+   letter-spacing: 2px;
+  }
+  .box{
+    border: 2px solid black;
+    width:60%;
+    height:40%;
+    text-align: left;
+  }
+  .btn{
+   margin-left: 1%;
+    background-color: #873600;
+    color: white;
+    
+    font-size: 8px;
+    border: none;
+    height:30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+  }
+  .sec-right{
+    height:400px;
+    width:55%;
+    margin-top: 5%;
+  }
+  .Span{
+    font-size: 50px;
+   margin-left: 38%;
+ 
+  }
+.boxes{
+position: relative;
+height:450px;
+width:90%;
+margin-left: 5%;
+
+display: flex;
+justify-content: space-between;
+
+}
+.Box{
+  
+}
+.btn1{
+  background-color: #873600;
+  color: white;
+  font-size: 11px;
+  border: none;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  font-family: 'PT Sans Narrow', sans-serif;
+margin-left: 30%;
+padding: 10px;
+
+}
+.sec4{
+  height:500px;
+  width:100%vh;
+  background-image:linear-gradient(rgba(6, 42, 11,0.8),rgba(6, 42, 11,0.8)), url('../public/asset/back.jpg');
+  background-size: 1260px 500px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.left{
+  height:380px;
+  width:50%;
+  
+}
+.rightbox{
+  height:200px;
+  width:70%;
+  border:2px solid white;
+  color: white;
+  padding-left: 20px;
+}
+.right{
+  height:380px;
+  width:35%;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{font-family: 'PT Sans Narrow', sans-serif;font-weight: bold; letter-spacing: 2px;}
+.Span{font-family: 'Pacifico', cursive; font-weight:lighter;}
+.sec6{
+  height:350px;
+  width:100%;
+  background-color:bisque;
+  margin-top: 15%;
+  
+}
+.secbox6{
+  display: flex;
+  justify-content: space-evenly;
+}
+.left1{
+  height:280px;
+  width:42%;
+  background-color: red;
+  margin-top: -13%;
+}
+.right1{
+  margin-top: -13%;
+  height:280px;
+  width:42%;
+  background-color: blue;
+}
+.subSec{
+  height:200px;
+  width:100%vh;
+  display: flex;
+  justify-content: space-around;
+}
+.message{
+  font-family:cursive;
+  font-weight: lighter;
+}
+.sec7{
+  height:200px;
+  width:100%vh;
+  margin-left: 1.5px;
+}
+.sec8{
+  height:300px;
+  width:100%vh;
+  background-color: #363736;
+ 
+}
+.f{
+  height:250px;
+  width:20%;
+  
+}
+.f p{
+  text-align: center;
+  color: white;
+ font-size: 12px;
+}
+.para{
+  text-align:  center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+}
+.footdiv{
+  margin-left: 10%;
+  height:50px;
+  width:200px;
+  background-color: white;
+}
+.footerlast{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 70px;
+}
+.sec8 input{
+border: none;
+}
+.last{
+  margin-top: -5%;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+.field{
+  
+}
