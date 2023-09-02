@@ -1,22 +1,4 @@
-import "./Styless.css";
-export function Home() {
-  return (
-    <>
-      <AppBar></AppBar>
-      <Myfun></Myfun>
-      <Sec1></Sec1>
-      <Sec2></Sec2>
-      <Sec3></Sec3>
-      <Sec4></Sec4>
-      <Sec5></Sec5>
-      <Sec6></Sec6>
-      <Sec7></Sec7>
-      <Sec8></Sec8>
-    </>
-  );
-}
-
-function AppBar() {
+export function AppBar() {
   return (
     <>
       <div>
@@ -44,7 +26,7 @@ function AppBar() {
     </>
   );
 }
-function Myfun() {
+export function Myfun() {
   return (
     <>
       <p className="App">CANDLE COMPANY</p>
@@ -52,7 +34,7 @@ function Myfun() {
     </>
   );
 }
-function Sec1() {
+export function Sec1() {
   return (
     <>
       <div className="sec1">
@@ -83,14 +65,14 @@ function Sec1() {
     </>
   );
 }
-function Sec2() {
+export function Sec2() {
   return (
     <div style={{ marginTop: "40px" }}>
       <span className="Span">Crafted with care</span>
     </div>
   );
 }
-function Sec3() {
+export function Sec3() {
   let imageList = ["asset/cup2.jpg", "asset/cup.jpg", "asset/cup3.jpg"];
   return (
     <>
@@ -103,22 +85,22 @@ function Sec3() {
         ))}
 
         {/* <div className="Box" id="box1">
-          <img src="asset/cup2.jpg" style={{ height: 350, width: 340 }}></img>
-          <a className="btn1">SHOP CANDLES</a>
-        </div>
-        <div className="Box" id="box2">
-          <img src="asset/cup.jpg" style={{ height: 350, width: 340 }}></img>
-          <a className="btn1">SHOP SETS</a>
-        </div>
-        <div className="Box" id="box3">
-          <img src="asset/cup3.jpg" style={{ height: 350, width: 340 }}></img>
-          <a className="btn1">SHOP EXTRAS</a>
-        </div> */}
+            <img src="asset/cup2.jpg" style={{ height: 350, width: 340 }}></img>
+            <a className="btn1">SHOP CANDLES</a>
+          </div>
+          <div className="Box" id="box2">
+            <img src="asset/cup.jpg" style={{ height: 350, width: 340 }}></img>
+            <a className="btn1">SHOP SETS</a>
+          </div>
+          <div className="Box" id="box3">
+            <img src="asset/cup3.jpg" style={{ height: 350, width: 340 }}></img>
+            <a className="btn1">SHOP EXTRAS</a>
+          </div> */}
       </div>
     </>
   );
 }
-function Sec4() {
+export function Sec4() {
   return (
     <>
       <div className="sec4">
@@ -150,14 +132,14 @@ function Sec4() {
     </>
   );
 }
-function Sec5() {
+export function Sec5() {
   return (
     <>
       <p className="Span">From the blog</p>
     </>
   );
 }
-function Sec6() {
+export function Sec6() {
   return (
     <>
       <div className="sec6">
@@ -195,7 +177,7 @@ function Sec6() {
     </>
   );
 }
-function Sec7() {
+export function Sec7() {
   let footerImg = [
     "asset/cup.jpg",
     "asset/cup2.jpg",
@@ -215,7 +197,7 @@ function Sec7() {
     </>
   );
 }
-function Sec8() {
+export function Sec8() {
   return (
     <>
       <div className="sec8">
